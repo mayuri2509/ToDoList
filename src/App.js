@@ -1,16 +1,10 @@
-import React,{Component}from "react";
+import React, { Component } from "react";
 import "./App.css";
-import Todoinput from "./Todoinput";
+import Todoinput from ".//Components/Todoinput";
 
-
-class App extends Component{
-  render(){
-    return(
-      // <PhoneBook/>
-
-      <Todoinput/> 
-        );
+class App extends Component {
+  render() {
+    return <Todoinput />;
   }
- 
 }
 export default App;

@@ -9,7 +9,6 @@ class Todoinput extends Component{
         editInput:''
     };
   }
-     
   AddTask = () =>{
         const{taskInput,tasks}=this.state;
         if(taskInput.trim()){
